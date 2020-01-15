@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(./img/dog-838281_1920.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+header {
+    display: flex;
+    background-color: #FFFFFF;
+}
+/* /////////////////////////////////////////////////////////////////////// MENU */
+.menu {
+    padding-right: 10%;
+    width: 50%;
+    text-align: center;
+    font-size: 1.2rem;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.box-logo {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.logo {
+    width: 30%;
+    padding-left: 10%;
+}
+/* /////////////////////////////////////////////////////////////////////// MENU */
+
+/* /////////////////////////////////////////////////////////////////////// PART 1 */
+
+.sessao-inicio {
+    height: 75vh;
+    text-align: center;
+    display: flex;
+
+}
+.barra-lateral {
+    margin: 0;
+    padding: 0;
+    width: 9%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly
+}
+.caixa-logo-inicio {
+    margin: 0;
+    padding-top: 2rem;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+.barrinha {
+    width: 1px;
+    height: 20vh;
+    background-color: red;
+}
+.email-inicio {
+    margin: 0;
+    padding-top: 2rem;
+    writing-mode: vertical-lr;
+}
+/* /////////////////////////////////////////////////////////////////////// PART 1 */
+
+.atividades-adote {
+    width: 90%;
+}
+.titulo-adote {
+    padding: 0;
+    margin: 0;
+    font-size: 3rem;
+}
+.caixa-texto-adote {
+    height: 7vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.texto-adote {
+    width: 53%;
+    height: 10vh;
+    text-align: center;
+    height: 2vh;
+    font-size: 1.3rem;
+}
+.caixa-botao {
+    padding: 0;
+    margin: 0;
+    width: 60%;
+}
