@@ -1,8 +1,6 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url(./img/dog-838281_1920.png);
-    background-size: 100%;
     background-repeat: no-repeat;
 }
 header {
@@ -15,6 +13,9 @@ header {
     width: 50%;
     text-align: center;
     font-size: 1.2rem;
+    font-family: 'Anton', sans-serif;
+    color: #5dcb89;
+    
     list-style: none;
     display: flex;
     justify-content: space-around;
@@ -34,24 +35,26 @@ header {
 /* /////////////////////////////////////////////////////////////////////// PART 1 */
 
 .sessao-inicio {
-    height: 75vh;
+    background-image: url(./img/dog-838281_1920.png);
+    background-size: 100%;
+    height: 100%;
     text-align: center;
     display: flex;
+    justify-content: center;
 
 }
 .barra-lateral {
     margin: 0;
     padding: 0;
     width: 9%;
-    height: 100%;
+    height: 80vh;
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: space-evenly
+    justify-content: space-evenly;
 }
 .caixa-logo-inicio {
     margin: 0;
-    padding-top: 2rem;
     height: 40%;
     display: flex;
     flex-direction: column;
@@ -65,6 +68,7 @@ header {
 }
 .email-inicio {
     margin: 0;
+    font-family: 'Anton', sans-serif;
     padding-top: 2rem;
     writing-mode: vertical-lr;
 }
@@ -72,28 +76,134 @@ header {
 
 .atividades-adote {
     width: 90%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .titulo-adote {
     padding: 0;
     margin: 0;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 5px;
     font-size: 3rem;
+    text-align: center
 }
 .caixa-texto-adote {
-    height: 7vh;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .texto-adote {
-    width: 53%;
-    height: 10vh;
-    text-align: center;
-    height: 2vh;
-    font-size: 1.3rem;
+    width: 45%;
+    font-family: 'Anton', sans-serif;
+    font-size: 1.1rem;
 }
-.caixa-botao {
-    padding: 0;
+.caixa-botao-informacao {
+    width: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.botao-informacao {
+    width: 35%;
+    height: 8vh;
+    border: 0;
     margin: 0;
-    width: 60%;
+    padding-top: 0;
+    padding-bottom: 0;
+    border-radius: 20px;
+    font-family: 'Anton', sans-serif;
+    font-size: 1.2rem;
+    background-color: #5dcb89;
+    color: #FFFFFF;
+}
+.botao2-informacao {
+    width: 55%;
+    height: 8vh;
+    border: 0;
+    margin: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    border-radius: 20px;
+    font-family: 'Anton', sans-serif;
+    font-size: 1.2rem;
+    background-color: #FFFFFF;
+    color: #5dcb89;
+
+}
+/* /////////////////////////////////////////////////////////////////////////////////////// PART 2 */
+
+.sessao-informacao {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titulo-informacao {
+    font-family: 'Anton', sans-serif;
+    color: #5dcb89;
+    margin: 0;
+    width: 25%;
+    font-size: 3rem;
+    display: flex;
+    justify-content: flex-end;
+}
+.caixa-texto-informacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.texto-informacao {
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}
+.foto-sobre {
+    z-index: 1;
+    position: relative;
+    top: 5rem;
+    left: 0rem;
+}
+.moldura-1 {
+    z-index: 2;
+    position: absolute;
+    left: 65rem;
+    top: 40rem;
+}
+.moldura-2 {
+    z-index: 3;
+}
+
+/* //////////////////////////////////////////////////////////////////////// PART 3 */
+
+.sessao-adote {
+    background-image: url(./img/Retângulo\ 6.svg);
+}
+.atividades-adote2 {
+    display: flex;
+}
+.titulo-sobre {
+    font-family: 'Anton', sans-serif;
+    color: #FFFFFF;
+    width: 10%;
+    height: 7rem;
+    font-size: 2rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.caixa-texto-sobre {
+    display: flex;
+    flex-direction: column;
+}
+.texto-sobre {
+    margin: 0;
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: center;
+    width: 45%;
 }
