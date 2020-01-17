@@ -15,11 +15,18 @@ header {
     font-size: 1.2rem;
     font-family: 'Anton', sans-serif;
     color: #5dcb89;
-    
     list-style: none;
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+.menu-item-modificado {
+    display: flex;
+    align-items: center;
+}
+.patas {
+    position: relative;
+    top: -10px;
 }
 .box-logo {
     width: 50%;
@@ -137,7 +144,6 @@ header {
 /* /////////////////////////////////////////////////////////////////////////////////////// PART 2 */
 
 .sessao-informacao {
-    width: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -146,7 +152,7 @@ header {
     font-family: 'Anton', sans-serif;
     color: #5dcb89;
     margin: 0;
-    width: 25%;
+    width: 28%;
     font-size: 3rem;
     display: flex;
     justify-content: flex-end;
@@ -160,7 +166,27 @@ header {
     font-size: 1.1rem;
     display: flex;
     justify-content: center;
-    width: 80%;
+    width: 70%;
+}
+.caixa-botao-voluntario {
+    height: 14vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.botao-voluntario {
+    width: 35%;
+    height: 8vh;
+    border: 0;
+    margin: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    border-radius: 20px;
+    font-family: 'Anton', sans-serif;
+    font-size: 1.2rem;
+    background-color: #5dcb89;
+    color: #FFFFFF;
 }
 .foto-sobre {
     z-index: 1;
@@ -182,28 +208,52 @@ header {
 
 .sessao-adote {
     background-image: url(./img/Retângulo\ 6.svg);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .atividades-adote2 {
+    width: 100%;
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 .titulo-sobre {
     font-family: 'Anton', sans-serif;
     color: #FFFFFF;
-    width: 10%;
+    margin: 0;
+    width: 52%;
     height: 7rem;
-    font-size: 2rem;
+    font-size: 3rem;
     display: flex;
-    justify-content: flex-end;
     align-items: center;
+
 }
 .caixa-texto-sobre {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 .texto-sobre {
-    margin: 0;
-    font-size: 1.1rem;
+    font-size: 1rem;
+    color: #FFFFFF;
     display: flex;
     justify-content: center;
-    width: 45%;
+    width: 50%;
 }
+.caixa-img-sobre {
+    display: flex;
+}
+.caixa-slide {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+.foto-slide {
+    width: 100%;
+}
+.slide{
+    width: 20%;
+}
+
